@@ -1,0 +1,20 @@
+---
+title: "About the Diamond Predictor"
+author: "Vadim Katsemba"
+date: "November 14, 2016"
+output: 
+  html_document: 
+    keep_md: yes
+---
+
+This application will help you know the price of the diamond.
+
+Here, there are two models used to predict the price from
+the weight(carat). We used two models to let you decide which
+diamond price is more accurate.
+
+Just move the slider to adjust the weight of the diamond and the
+plot will display two prices for you to compare.
+
+You can find the source code for the ui.r and server.r functions at
+the GitHub repository: https://github.com/vkatsemba/DevelopingDataProducts
