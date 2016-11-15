@@ -40,6 +40,6 @@ This scatterplot compares the weight(carat) against the price.
 ```{r, echo=FALSE}
 plot(~carat+price, data=diamonds)
 ```
-
+![](https://github.com/vkatsemba/DevelopingDataProducts/blob/master/DiamondScatterPlot.png?raw=TRUE)
 
 
