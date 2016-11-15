@@ -34,7 +34,9 @@ library(ggplot2)
 data("diamonds")
 summary(diamonds)
 ```
-   carat               cut        color        clarity     
+
+```
+  carat               cut        color        clarity     
  Min.   :0.2000   Fair     : 1610   D: 6775   SI1    :13065  
  1st Qu.:0.4000   Good     : 4906   E: 9797   VS2    :12258  
  Median :0.7000   Very Good:12082   F: 9542   SI2    : 9194  
@@ -56,8 +58,8 @@ summary(diamonds)
  Median : 5.700   Median : 5.710   Median : 3.530  
  Mean   : 5.731   Mean   : 5.735   Mean   : 3.539  
  3rd Qu.: 6.540   3rd Qu.: 6.540   3rd Qu.: 4.040  
- Max.   :10.740   Max.   :58.900   Max.   :31.800
-
+ Max.   :10.740   Max.   :58.900   Max.   :31.800 
+```
 ##Scatterplot
 This scatterplot compares the weight(carat) against the price.
 ```{r, echo=FALSE}
