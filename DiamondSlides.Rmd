@@ -1,0 +1,45 @@
+---
+title: "Shiny App and Reproducible Pitch"
+author: "Vadim Katsemba"
+date: "November 14, 2016"
+output: ioslides_presentation
+---
+
+##Overview
+The application was designed as part of the final
+project for the Developing Data Products class as part
+of Coursera's Data Science Specialization.
+
+The link to the application itself is at:
+https://vkat722.shinyapps.io/Diamonds/
+
+The source code for the ui.r and server.r files can be
+found at the GitHub repository: https://github.com/vkatsemba/DevelopingDataProducts
+
+##Functionality
+The application is used to predict the price of a diamond
+based on its weight.
+
+The slider allows you to select the diamond's weight and an
+interactive plot displays two lines indicating the price
+using two different linear models.
+
+It's up to you to decide what price you think is more accurate
+for a particular diamond.
+
+##Dataset
+Here's the summary of the diamonds dataset.
+```{r, echo=FALSE}
+library(ggplot2)
+data("diamonds")
+summary(diamonds)
+```
+
+##Scatterplot
+This scatterplot compares the weight(carat) against the price.
+```{r, echo=FALSE}
+plot(~carat+price, data=diamonds)
+```
+
+
+
